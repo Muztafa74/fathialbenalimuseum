@@ -39,7 +39,7 @@ const ContactPage: React.FC = () => {
       <section className="relative h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="./src/images/home2.jpg" 
+            src="/images/home2.jpg" 
             alt="اتصل بمتحف فتحي البنعلي" 
             className="w-full h-full object-cover"
           />

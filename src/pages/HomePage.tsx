@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
       <section className="relative h-[80vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src=".\src\images\home.jpg" 
+            src="/images/home.jpg" 
             alt="متحف فتحي البنعلي" 
             className="w-full h-full object-cover"
           />
@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <img 
-                src=".\src\images\about.jpg" 
+                src="/images/about.jpg" 
                 alt="متحف فتحي البنعلي" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
@@ -70,7 +70,7 @@ const HomePage: React.FC = () => {
             <div className="museum-card">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src=".\src\images\ship.jpg" 
+                  src="/images/ship.jpg" 
                   alt="السفن الخليجية التراثية" 
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
@@ -93,7 +93,7 @@ const HomePage: React.FC = () => {
             <div className="museum-card">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src=".\src\images\tool.jpg" 
+                  src="/images/tool.jpg" 
                   alt="أدوات الصيد" 
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
@@ -116,7 +116,7 @@ const HomePage: React.FC = () => {
             <div className="museum-card">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src=".\src\images\piece.jpg" 
+                  src="/images/piece.jpg" 
                   alt="القطع النادرة" 
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
@@ -176,7 +176,7 @@ const HomePage: React.FC = () => {
             <div className="md:w-1/2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src=".\src\images\Museum.jpg" 
+                  src="/images/Museum.jpg" 
                   alt="زيارة متحف فتحي البنعلي" 
                   className="w-full h-auto"
                 />

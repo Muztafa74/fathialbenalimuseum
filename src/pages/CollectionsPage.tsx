@@ -20,7 +20,7 @@ const CollectionsPage: React.FC = () => {
       id: 1,
       title: "السفينة الشراعية التقليدية",
       description: "نموذج مصغر للسفينة الشراعية التقليدية التي كانت تستخدم في الخليج العربي للتجارة والصيد.",
-      image: "./src/images/ship.jpg",
+      image: "/images/ship.jpg",
       category: "ships",
       icon: <Ship size={20} />
     },
@@ -28,7 +28,7 @@ const CollectionsPage: React.FC = () => {
       id: 2,
       title: "البوم الكويتي",
       description: "نموذج للبوم الكويتي، وهو نوع من السفن الشراعية الكبيرة التي استخدمت في رحلات التجارة الطويلة.",
-      image: "./src/images/ships.jpg",
+      image: "/images/ships.jpg",
       category: "ships",
       icon: <Ship size={20} />
     },
@@ -36,7 +36,7 @@ const CollectionsPage: React.FC = () => {
       id: 3,
       title: "شباك الصيد التقليدية",
       description: "مجموعة من شباك الصيد التقليدية المستخدمة من قبل صيادي الأسماك في الخليج العربي.",
-      image: "./src/images/fish.jpg",
+      image: "/images/fish.jpg",
       category: "fishing",
       icon: <Anchor size={20} />
     },
@@ -44,7 +44,7 @@ const CollectionsPage: React.FC = () => {
       id: 4,
       title: "القراقير",
       description: "أقفاص صيد الأسماك التقليدية المصنوعة من سعف النخيل والأسلاك المعدنية.",
-      image: "./src/images/fishing.jpg",
+      image: "/images/fishing.jpg",
       category: "fishing",
       icon: <Anchor size={20} />
     },
@@ -52,7 +52,7 @@ const CollectionsPage: React.FC = () => {
       id: 5,
       title: "البوصلة البحرية",
       description: "بوصلة بحرية قديمة استخدمها البحارة في تحديد الاتجاهات أثناء الإبحار.",
-      image: "./src/images/navigation.jpg",
+      image: "/images/navigation.jpg",
       category: "navigation",
       icon: <Compass size={20} />
     },
@@ -60,7 +60,7 @@ const CollectionsPage: React.FC = () => {
       id: 6,
       title: "الإسطرلاب",
       description: "أداة فلكية قديمة استخدمت في الملاحة البحرية وتحديد المواقع.",
-      image: "./src/images/navigation1.jpg",
+      image: "/images/navigation1.jpg",
       category: "navigation",
       icon: <Compass size={20} />
     },
@@ -68,7 +68,7 @@ const CollectionsPage: React.FC = () => {
       id: 7,
       title: "خرائط بحرية قديمة",
       description: "مجموعة من الخرائط البحرية القديمة التي توضح طرق التجارة والملاحة في الخليج العربي.",
-      image: "./src/images/maps.jpg",
+      image: "/images/maps.jpg",
       category: "maps",
       icon: <Map size={20} />
     },
@@ -76,7 +76,7 @@ const CollectionsPage: React.FC = () => {
       id: 8,
       title: "أدوات منزلية تقليدية",
       description: "مجموعة من الأدوات المنزلية التقليدية التي كانت تستخدم في المنازل قديماً.",
-      image: "./src/images/artifacts.jpg",
+      image: "/images/artifacts.jpg",
       category: "artifacts",
       icon: <Shell size={20} />
     },
@@ -84,7 +84,7 @@ const CollectionsPage: React.FC = () => {
       id: 9,
       title: "الملابس التقليدية",
       description: "عرض للملابس التقليدية التي كان يرتديها سكان المنطقة الشرقية قديماً.",
-      image: "./src/images/traditional.jpg",
+      image: "/images/traditional.jpg",
       category: "traditional",
       icon: <Palmtree size={20} />
     }
@@ -110,7 +110,7 @@ const CollectionsPage: React.FC = () => {
       <section className="relative h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="./src/images/home2.jpg" 
+            src="/images/home2.jpg" 
             alt="مقتنيات متحف فتحي البنعلي" 
             className="w-full h-full object-cover"
           />

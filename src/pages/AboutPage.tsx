@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
       <section className="relative h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src=".\src\images\about.jpeg" 
+            src="/images/about.jpeg" 
             alt="عن متحف فتحي البنعلي" 
             className="w-full h-full object-cover"
           />
@@ -44,7 +44,7 @@ const AboutPage: React.FC = () => {
             <div className="md:w-1/2">
               <div className="sticky top-24">
                 <img 
-                  src=".\src\images\about.jpg" 
+                  src="/images/about.jpg" 
                   alt="تاريخ متحف فتحي البنعلي" 
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
@@ -92,7 +92,7 @@ const AboutPage: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <img 
-                src="./src/images/about.jpeg" 
+                src="/images/about.jpeg" 
                 alt="مبنى متحف فتحي البنعلي" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />
