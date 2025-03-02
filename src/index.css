@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #8B5A2B;
+  --secondary-color: #D2B48C;
+  --accent-color: #3D2314;
+  --background-color: #F5F5F5;
+  --text-color: #333333;
+}
+
+html, body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-primary mb-6 relative inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  width: 60%;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+
+.nav-link {
+  @apply relative px-3 py-2 transition-all duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondary-color);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+.museum-card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300;
+}
+
+.museum-card:hover {
+  @apply shadow-xl transform -translate-y-1;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-6 py-2 rounded-md transition-all duration-300 hover:bg-opacity-90;
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 md:px-8;
+  }
+}
